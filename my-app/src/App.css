@@ -1,0 +1,8 @@
+.App {
+    width: 100vw;
+    height: auto;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }

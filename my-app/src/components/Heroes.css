@@ -1,0 +1,18 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+
+.hero-card {
+  width: 28vw;
+  height: auto;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 20pt;
+  background-color: black;
+  margin: 10px;
+  color: white;
+  padding-left: 30px;
+}
+.image{
+  width: 80%;
+ padding-top: 25px;
+}
