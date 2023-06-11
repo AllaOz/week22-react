@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 
 import Heroes from './components/Heroes';
@@ -91,8 +92,13 @@ class App extends React.Component {
             <div className="App">
                 {
                     heroes.map((hero) =>
-                        <Heroes name={hero.name} alterego={hero.alterego} occupation={hero.occupation} 
-                            friends={hero.friends} superpowers={hero.superpowers} url={hero.url}></Heroes>
+                        <Heroes name={hero.name} 
+                            alterego={hero.alterego} 
+                            occupation={hero.occupation} 
+                            friends={hero.friends} 
+                            superpowers={hero.superpowers} 
+                            url={hero.url}>
+                        </Heroes>
                     )
                 }</div>
         );
